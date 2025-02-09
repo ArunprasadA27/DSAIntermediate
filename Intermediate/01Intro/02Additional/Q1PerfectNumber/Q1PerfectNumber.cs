@@ -31,7 +31,7 @@ namespace Intermediate._01Intro._02Additional.Q1PerfectNumber
                 if(A%i == 0)
                 {
                     sum += i;
-                    if (i != A / i) // Avoid adding the square root twice
+                    if (i != A / i) 
                         sum += A / i;
                 }
             }
